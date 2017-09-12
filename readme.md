@@ -1,17 +1,3 @@
-app / index.html中的自定義HTML註釋 - 所有您的自定義HTML;
-要安裝新的jQuery庫，只需在終端中運行命令“ bower i plugin-name ”即可。庫自動放在文件夾app / libs中。Bower必須安裝在系統中（npm i-g bower）。然後將所有jQuery庫路徑放在'libs'任務（gulpfile.js）中;
-所有定制JS位於app / js / common.js ;
-所有Sass vars都放在app / sass / _vars.sass中 ;
-所有Bootstrap媒體查詢放在app / sass / _media.sass中 ;
-所有jQuery庫CSS樣式放在app / sass / _libs.sass中 ;
-將ht.access重命名為.htaccess，然後將其放在Web服務器中。此文件包含在Web服務器上緩存文件的規則。
-
-
-
-
-
-
-
 <h1>OptimizedHTML - Start HTML Template</h1>
 
 
@@ -41,18 +27,13 @@ app / index.html中的自定義HTML註釋 - 所有您的自定義HTML;
 
 <ul>
 	<li><strong>gulp</strong>: 運行默認gulp任務（sass，js，watch，browserSync）進行Web開發</li>
-	<li><strong>build</strong>: 構建項目到dist文件夾（清理，映像優化，刪除不必要的文件） (cleanup, image optimize, removing unnecessary files);</li>
-	<li><strong>deploy</strong>: 通過FTP從dist文件夾在服務器上部署項目;project deployment on the server from <strong>dist</strong> folder via <strong>FTP</strong>;</li>
-	<li><strong>rsync</strong>: project deployment on the server from <strong>dist</strong> folder via <strong>RSYNC</strong>;</li>
-	<li><strong>clearcache</strong>: clear all gulp cache.</li>
+	<li><strong>build</strong>: 構建項目到dist文件夾(cleanup, image optimize, removing unnecessary files);</li>
+	<li><strong>deploy</strong>: 通過<strong>FTP</strong>從<strong>dist</strong> 文件夾在服務器上部署項目;</li>
+	<li><strong>rsync</strong>: 通過RSYNC從<strong>dist</strong> 文件夾在服務器上部署項目;</li>
+	<li><strong>clearcache</strong>: 清除所有gulp緩存。</li>
 </ul>
 
-gulp：;
-構建：;
-部署：
-rsync：通過RSYNC從dist文件夾在服務器上部署項目;
-clearcache：清除所有gulp緩存。
-使用起始HTML模板的規則
+
 
 <h2>Rules for working with the starting HTML template</h2>
 

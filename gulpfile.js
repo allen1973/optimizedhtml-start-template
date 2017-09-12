@@ -12,7 +12,9 @@ var gulp           = require('gulp'),
 		autoprefixer   = require('gulp-autoprefixer'),
 		ftp            = require('vinyl-ftp'),
 		notify         = require("gulp-notify"),
-		rsync          = require('gulp-rsync');
+		rsync          = require('gulp-rsync'),
+		sourcemaps = require('gulp-sourcemaps');
+
 
 // Скрипты проекта
 
@@ -48,7 +50,10 @@ gulp.task('browser-sync', function() {
 });
 
 gulp.task('sass', function() {
-	return gulp.src('app/sass/**/*.sass')
+	return gulp.src('app/sass/**/*.scss')
+	.pipe(sourcemaps.init())
+	.pipe(sass().on('error', sass.logError))
+  	.pipe(sourcemaps.write())
 	.pipe(sass({outputStyle: 'expand'}).on("error", notify.onError()))
 	.pipe(rename({suffix: '.min', prefix : ''}))
 	.pipe(autoprefixer(['last 15 versions']))

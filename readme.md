@@ -38,14 +38,14 @@
 <h2>Rules for working with the starting HTML template</h2>
 
 <ol>
-	<li>所有HTML文件應具有與 <strong>app/index.html</strong>類似的初始內容;;</li>
-	<li><strong>Template Basic Images Start</strong> comment in app/index.html - all your custom template basic images (og:image for social networking, favicons for a variety of devices);模板基本圖像在app / index.html中開始評論 - 所有您的自定義模板基本圖像（og：社交網絡圖像，各種設備的圖標）;</li>
-	<li><strong>Custom Browsers Color Start</strong> comment in app/index.html: set the color of the browser head on a variety of devices;自定義瀏覽器顏色在app / index.html中開始註釋：設置瀏覽器頭部在各種設備上的顏色;</li>
-	<li><strong>Custom HTML</strong> comment in app/index.html - all your custom HTML;</li>
-	<li>For installing new jQuery library, just run the command "<strong>bower i plugin-name</strong>" in the terminal. Libraries are automatically placed in the folder <strong>app/libs</strong>. Bower must be installed in the system (npm i -g bower). Then place all jQuery libraries paths in the <strong>'libs'</strong> task (gulpfile.js);</li>
-	<li>All custom JS located in <strong>app/js/common.js</strong>;</li>
-	<li>All Sass vars placed in <strong>app/sass/_vars.sass</strong>;</li>
-	<li>All Bootstrap media queries placed in <strong>app/sass/_media.sass</strong>;</li>
-	<li>All jQuery libraries CSS styles placed in <strong>app/sass/_libs.sass</strong>;</li>
-	<li>Rename <strong>ht.access</strong> to <strong>.htaccess</strong> before place it in your web server. This file contain rules for files caching on web server.</li>
+	<li><font><font>所有HTML文件應具有與</font></font><strong><font><font>app / index.html</font></font></strong><font><font>類似的初始內容</font><font>;</font></font></li>
+	<li><strong><font><font>模板基本圖像</font></font></strong><font><font>在app / index.html中</font><strong><font>開始</font></strong><font>評論 - 所有您的自定義模板基本圖像（og：社交網絡圖像，各種設備的圖標）;</font></font></li>
+	<li><strong><font><font>自定義瀏覽器顏色</font></font></strong><font><font>在app / index.html中</font><strong><font>開始</font></strong><font>註釋：設置瀏覽器頭部在各種設備上的顏色;</font></font></li>
+	<li><strong><font></font></strong><font><font>app / index.html中的</font><strong><font>自定義HTML</font></strong><font>註釋 - 所有您的自定義HTML;</font></font></li>
+	<li><font><font>要安裝新的jQuery庫，只需</font><font>在終端中</font><font>運行命令“ </font></font><strong><font><font>bower i plugin-name</font></font></strong><font><font> ”即可。</font><font>庫自動放在文件夾</font></font><strong><font><font>app / libs中</font></font></strong><font><font>。</font><font>Bower必須安裝在系統中（npm i-g bower）。</font><font>然後將所有jQuery庫路徑放在</font></font><strong><font><font>'libs'</font></font></strong><font><font>任務（gulpfile.js）中;</font></font></li>
+	<li><font><font>所有定制JS位於</font></font><strong><font><font>app / js / common.js</font></font></strong><font><font> ;</font></font></li>
+	<li><font><font>所有Sass vars都放在</font></font><strong><font><font>app / sass / _vars.sass中</font></font></strong><font><font> ;</font></font></li>
+	<li><font><font>所有Bootstrap媒體查詢放在</font></font><strong><font><font>app / sass / _media.sass中</font></font></strong><font><font> ;</font></font></li>
+	<li><font><font>所有jQuery庫CSS樣式放在</font></font><strong><font><font>app / sass / _libs.sass中</font></font></strong><font><font> ;</font></font></li>
+	<li><font><font>將</font></font><strong><font><font>ht.access</font></font></strong><font><font>重命名</font><font>為</font></font><strong><font><font>.htaccess，</font></font></strong><font><font>然後將其放在Web服務器中。</font><font>此文件包含在Web服務器上緩存文件的規則。</font></font></li>
 </ol>
